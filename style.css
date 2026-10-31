@@ -1,0 +1,21 @@
+:root{--violet:#5b21b6;--indigo:#4338ca}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:radial-gradient(circle at 10% 0,#ede9fe,transparent 40%),radial-gradient(circle at 100% 100%,#e0e7ff,transparent 40%),#f8f7ff}
+#sidebar{background:linear-gradient(180deg,#2e1065,#312e81)}
+#nav button{text-align:left;padding:.55rem .75rem;border-radius:.6rem;transition:background .15s}
+#nav button:hover{background:rgba(255,255,255,.1)}
+#nav button.active{background:#fff;color:#4c1d95;font-weight:700}
+#nav .grp{font-size:.65rem;letter-spacing:.05em;color:#a78bfa;padding:.8rem .75rem .2rem}
+.glass,.card{background:rgba(255,255,255,.75);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.9);box-shadow:0 8px 30px rgba(76,29,149,.08);border-radius:1rem}
+.card{padding:1.25rem}
+.btn{background:linear-gradient(135deg,var(--violet),var(--indigo));color:#fff;font-weight:600;font-size:.875rem;padding:.55rem 1rem;border-radius:.7rem}
+.btn:hover{filter:brightness(1.1)}
+.btn-alt{background:#fff;color:var(--violet);border:1px solid #c4b5fd}
+.inp{width:100%;border:1px solid #ddd6fe;border-radius:.6rem;padding:.5rem .75rem;background:#fff;font-size:.875rem}
+.inp:focus{outline:2px solid #8b5cf6}
+label.l{display:block;font-size:.75rem;font-weight:600;color:#64748b;margin-bottom:.25rem}
+table.t{width:100%;font-size:.8rem;border-collapse:collapse}
+table.t th{text-align:left;color:#6d28d9;border-bottom:2px solid #ddd6fe;padding:.5rem}
+table.t td{padding:.45rem .5rem;border-bottom:1px solid #ede9fe}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.ok{background:#d1fae5;color:#065f46}.bad{background:#fee2e2;color:#991b1b}
+@media print{.no-print{display:none!important}body{background:#fff}.card{box-shadow:none;border:1px solid #ddd}}
